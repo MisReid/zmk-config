@@ -60,7 +60,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC      │ Page Up  │  UP      │Page down │ Calc     │   │  7       │  8       │  9       │  0       │  *       │
-            &kp ESC    &PG_UP     &kp UP     &kp PG_DN &kp K_CALC      &kp N7      &kp N8       &kp N9   &kp N0    &kp STAR
+            &kp ESC    &kp PG_UP   &kp UP  &kp PG_DN &kp K_CALC      &kp N7      &kp N8       &kp N9   &kp N0    &kp STAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ SHIFT    │  LEFT    │  DOWN    │  RIGHT   │Gamer Mode│   │ 4        │ 5        │ 6        │ / ?      │  - _     │
            &kp LSHIFT  &kp LEFT  &kp DOWN    &kp RIGHT  &none          &kp N4       &kp N5     &kp N6    &kp FSLH   &kp MINUS
