@@ -43,7 +43,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  ;       │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &kp SEMI
+            &kp Q      &kp W     &lt 3 F      &kp P      &kp B          &kp J      &kp L     &lt 3 U    &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │  O       │
           &mt LSHIFT A &kp R      &lt 2 D    &lt 1 F    &kp G          &kp M      &lt 1 N    &lt 2 E    &kp I    &mt RSHIFT O
@@ -99,11 +99,11 @@
         //│          │ Bright - │          │  Vol -   │          │   │  F4      │  F5      │  F6      │   F11    │   Lock   │
              &none   &kp C_BRI_DN   &none   &kp K_VOL_DN  &none          &kp F4     &kp F5     &kp F6     &kp F11 &kp K_LOCK
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │ Mute     │          │   │   F1     │  F2      │  F3      │  F10     │   Power  │
-            &none       &none      &none    &kp K_MUTE   &none          &kp F1     &kp F2     &kp F3     &kp F10   &kp K_PWR
+        //│ BOOTLDR             │          │          │ Mute         │   F1     │  F2      │  F3      │  F10     │ BOOTLDR  │
+          &bootloader    &none      &none    &kp K_MUTE   &none          &kp F1     &kp F2     &kp F3     &kp F10  &bootloader
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
-        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+                                            &trans     &trans         &trans     &trans
+      //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
     };
