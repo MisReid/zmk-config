@@ -20,20 +20,20 @@
         comquest: comma_question {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp QMARK>
-            mods = <(MOD_LSFT|MOD_RSFT)>
+            bindings = <&kp COMMA>, <&kp QMARK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         dotex: dot_exclamation {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp EXCL>
-            mods = <(MOD_LSFT|MOD_RSFT)>
+            bindings = <&kp DOT>, <&kp EXCL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         sslash: super_slash {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp FSLH>, <&kp BSLH>
-            mods = <(MOD_LSFT|MOD_RSFT)>
+            bindings = <&kp FSLH>, <&kp BSLH>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
