@@ -46,7 +46,7 @@
             &kp Q      &kp W     &lt 3 F      &kp P      &kp B          &kp J      &kp L     &lt 3 U    &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │  O       │
-          &mt LSHIFT A &kp R      &lt 2 D    &lt 1 F    &kp G          &kp M      &lt 1 N    &lt 2 E    &kp I    &mt RSHIFT O
+          &mt LSHIFT A &kp R      &lt 2 S    &lt 1 T    &kp G          &kp M      &lt 1 N    &lt 2 E    &kp I    &mt RSHIFT O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , ?      │ . !      │ / \      │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &comquest  &dotex    &kp FSLH
