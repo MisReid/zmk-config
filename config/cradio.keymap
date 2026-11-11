@@ -116,7 +116,7 @@
            &kp LSHIFT  &kp A     &kp S       &kp D     &kp F            &kp N4     &kp N5     &kp N6     &kp F11   &kp F2
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CNTRL    │    Z     │  X       │ V        |    B     |   │   1      │   2      │   3      │  F10     │     F1   │
-          &kp LCTRL    &kp Z     &kp X      &kp V      &bt B          &kp N1     &kp N2     &kp N3     &kp F10      &kp F1
+          &kp LCTRL    &kp Z     &kp X      &kp V      &kp B          &kp N1     &kp N2     &kp N3     &kp F10      &kp F1
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 |   Esc    |   Space  |   | Enter/Ctl|  layer 1
                                              &kp ESC   &tkp SPACE       &trans     &to 0
