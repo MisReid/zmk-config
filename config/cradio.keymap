@@ -80,7 +80,7 @@
             &kp ESC   &kp AT     &kp LBKT   &kp RBKT   &kp TILDE      &kp CARET  &kp GRAVE   &none      &none     &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    <     │    >     │  (       │   )      │   &      │   │  =       │  '       │          │  %       │  _       │
-         &mt LSHIFT LT  &kp GT    &kp RPAR   &kp LPAR   &kp AMPS      &kp EQUAL   &kp SQT      &none    &kp PRCNT  &kp UNDER
+         &mt LSHIFT LT  &kp GT    &kp LPAR   &kp RPAR   &kp AMPS      &kp EQUAL   &kp SQT      &none    &kp PRCNT  &kp UNDER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   CAPS    │  #       │    {     │    }     │   |      │   │  $       │  "       │    ?     │  !       │    \     │
             &kp CAPS     &kp HASH   &kp LBRC   &kp RBRC   &kp PIPE       &kp DLLR   &kp DQT   &kp QMARK   &kp EXCL    &kp BSLH
@@ -93,8 +93,8 @@
         f_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │ Bright + │          │  Vol +   |PROFILE 0 │   │    F7    │  F8      │   F9     │  F12     │  Sleep   │
-            &none   &kp C_BRI_UP   &none  &kp K_VOL_UP &bt BT_SEL 0    &kp F7     &kp F8     &kp F9     &kp F12 &kp K_SLEEP
+        //│  Layer 4 │ Bright + │          │  Vol +   |PROFILE 0 │   │    F7    │  F8      │   F9     │  F12     │  Sleep   │
+            &to 4   &kp C_BRI_UP   &none  &kp K_VOL_UP &bt BT_SEL 0    &kp F7     &kp F8     &kp F9     &kp F12 &kp K_SLEEP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │ Bright - │          │  Vol -   │PROF NEXT │   │  F4      │  F5      │  F6      │   F11    │   Lock   │
              &none   &kp C_BRI_DN   &none &kp K_VOL_DN &bt BT_NXT      &kp F4     &kp F5     &kp F6     &kp F11 &kp K_LOCK
@@ -104,6 +104,23 @@
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
       //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+        gaming_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│   TAB    │ Q        │   W      │  E       |   R      │   │     7    │   8      │    9     │  0       │    F3    │
+            &kp TAB   &kp Q       &kp W      &kp E     &kp R           &kp N7     &kp N8     &kp N9     &kp 0      &kp F3
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   Shift  │   A      │    S     │  D       │    F     │   │   4      │   5      │   6      │   F11    │   F2     │
+           &kp LSHIFT  &kp A     &kp S       &kp D     &kp F            &kp N4     &kp N5     &kp N6     &kp F11   &kp F2
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│ CNTRL    │    Z     │  X       │ V        |    B     |   │   1      │   2      │   3      │  F10     │     F1   │
+          &kp LCTRL    &kp Z     &kp X      &kp V      &bt B          &kp N1     &kp N2     &kp N3     &kp F10      &kp F1
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+        //                                 |   Esc    |   Space  |   | Enter/Ctl|  layer 1
+                                             &kp ESC   &tkp SPACE       &trans     &to 0
+      //                                   ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
     };
